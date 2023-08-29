@@ -1,0 +1,35 @@
+.header {
+  position: relative;
+  padding-top: 1.25rem;
+}
+
+.header-panel {
+  display: flex;
+}
+
+.header-panel_logo {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.header-panel_logo::after,
+.header-panel_logo::before {
+  position: absolute;
+}
+
+.header-panel_logo::after {
+  content: "";
+  width: 1rem;
+  height: 1rem;
+  background: url("../assets/greater-than-icon.png") 0 0 no-repeat;
+  bottom: 0;
+}
+
+.header-panel_logo::before {
+  content: "";
+  width: 1rem;
+  height: 1rem;
+  background: url("../assets/less-than-icon.png") 0 0 no-repeat;
+  transform: translateX(-0.6rem);
+  bottom: 0;
+}
