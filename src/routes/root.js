@@ -4,6 +4,7 @@ import Header from "../components/header";
 import Footer from "../components/footer";
 
 function Root() {
+  console.log(Math.random());
   return (
     <>
       <div className="container">
@@ -14,7 +15,10 @@ function Root() {
               <div className="layout_col layout_col-nav">
                 <Nav />
               </div>
-              <div className="layout_col">
+              <div
+                key={Math.random()}
+                className="layout_col fadeInUp-animation"
+              >
                 <Outlet end />
               </div>
             </div>

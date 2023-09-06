@@ -42,9 +42,15 @@ ul {
 }
 
 /*/////////CSS BOILERPLATE//////*/
+:root {
+  --main-color: #bb000e;
+  --main-secondary-color: #b34b52;
+}
 
 html {
   background-color: #161616;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto Mono", monospace;
 }
 
 .container {
@@ -81,6 +87,44 @@ main {
 
 .layout_col-nav {
   padding: 2.2rem 0;
+}
+
+h2 {
+  color: white;
+  margin-bottom: 1.7rem;
+  font-weight: 700;
+  font-size: 2.3rem;
+}
+
+p {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.7;
+  max-width: 65%;
+}
+
+.experience {
+  color: #bb000e;
+}
+
+.experience:hover {
+  color: #b34b52;
+  cursor: pointer;
+}
+
+@keyframes fadeInUp {
+  0% {
+    transform: translateY(10%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+.fadeInUp-animation {
+  animation: 1.5s fadeInUp;
 }
 
 @media (min-width: 576px) {

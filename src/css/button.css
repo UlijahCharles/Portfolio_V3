@@ -1,0 +1,19 @@
+button {
+  background: none;
+  border: 2px solid;
+  font: inherit;
+  line-height: 1;
+  margin: 0.5em;
+  padding: 1em 2em;
+  color: var(--main-color);
+  transition: 0.25s;
+  max-width: 25%;
+}
+
+button:hover,
+button:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--main-secondary-color);
+  transform: translateY(-0.25em);
+  border-color: var(--main-secondary-color);
+  color: #fff;
+}
