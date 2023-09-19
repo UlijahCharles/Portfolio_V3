@@ -1,0 +1,76 @@
+.background-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: fadeIn 500ms ease-in;
+}
+
+.modal-experience {
+  background-color: #b98487;
+  height: 100%;
+  display: flex;
+  z-index: 1000;
+  position: relative;
+  align-items: flex-start;
+  padding: 3rem 4rem;
+  justify-content: center;
+  flex-direction: column;
+  animation: fadeIn 500ms ease-in;
+}
+
+.modal-experience-header {
+  color: #101626;
+  margin-bottom: 2.5rem;
+  font-size: 1.5rem;
+  animation: fadeInTrans 500ms ease-in both;
+}
+
+.modal-experience-company {
+  color: #101626;
+  line-height: 1.7;
+  max-width: 100%;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.1rem;
+  animation: fadeInTrans 500ms ease-in both;
+  animation-delay: 400ms;
+}
+
+.modal-experience-length {
+  color: #101626;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.7;
+  max-width: 100%;
+  font-size: 0.9rem;
+  font-weight: 400;
+  margin-bottom: 0;
+  animation: fadeInTrans 500ms ease-in both;
+  animation-delay: 600ms;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInTrans {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -20%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}

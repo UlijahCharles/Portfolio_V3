@@ -10,23 +10,23 @@ const Skills = () => {
         learning, continue challenging myself, and do interesting things that
         matter.
       </p>
-      <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>Javascript</li>
-        <li>React</li>
-        <li>Redux</li>
-        <li>Typescript</li>
-        <li>Bootstrap</li>
-        <li>SASS</li>
-        <li>Node.js</li>
-        <li>Next.js</li>
-        <li>Adobe Photoshop</li>
-        <li>GIT</li>
-        <li>Responsive Design</li>
-        <li>Accessibility</li>
-        <li>Performance Optimization</li>
-        <li>NPM</li>
+      <ul className={style["skills-list"]}>
+        <li className={style["skills-list__item"]}>HTML</li>
+        <li className={style["skills-list__item"]}>CSS</li>
+        <li className={style["skills-list__item"]}>Javascript</li>
+        <li className={style["skills-list__item"]}>React</li>
+        <li className={style["skills-list__item"]}>Redux</li>
+        <li className={style["skills-list__item"]}>Typescript</li>
+        <li className={style["skills-list__item"]}>Bootstrap</li>
+        <li className={style["skills-list__item"]}>SASS</li>
+        <li className={style["skills-list__item"]}>Node.js</li>
+        <li className={style["skills-list__item"]}>Next.js</li>
+        <li className={style["skills-list__item"]}>Adobe Photoshop</li>
+        <li className={style["skills-list__item"]}>GIT</li>
+        <li className={style["skills-list__item"]}>Responsive Design</li>
+        <li className={style["skills-list__item"]}>Accessibility</li>
+        <li className={style["skills-list__item"]}>Performance Optimization</li>
+        <li className={style["skills-list__item"]}>NPM</li>
       </ul>
     </React.Fragment>
   );

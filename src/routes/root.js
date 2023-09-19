@@ -15,10 +15,7 @@ function Root() {
               <div className="layout_col layout_col-nav">
                 <Nav />
               </div>
-              <div
-                key={Math.random()}
-                className="layout_col fadeInUp-animation"
-              >
+              <div className="layout_col fadeInUp-animation">
                 <Outlet end />
               </div>
             </div>

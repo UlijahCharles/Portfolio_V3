@@ -90,6 +90,7 @@ main {
 }
 
 h2 {
+  font-family: "Roboto Mono", monospace;
   color: white;
   margin-bottom: 1.7rem;
   font-weight: 700;
@@ -103,6 +104,10 @@ p {
   max-width: 65%;
 }
 
+a {
+  font-family: "Roboto Mono", monospace;
+}
+
 .experience {
   color: #bb000e;
 }
@@ -110,6 +115,14 @@ p {
 .experience:hover {
   color: #b34b52;
   cursor: pointer;
+}
+
+#modal {
+  height: 100%;
+  position: fixed;
+  z-index: 3000;
+  overflow: hidden;
+  right: 0;
 }
 
 @keyframes fadeInUp {
