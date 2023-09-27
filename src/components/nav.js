@@ -1,20 +1,21 @@
-import React from "react";
+import React, { useState, memo, useEffect } from "react";
 import { NavLink } from "react-router-dom";
+
 import "../css/nav.css";
 
-const Nav = () => {
-  const forceUpdateHandler = () => {
+const Nav = memo(() => {
+  const ForceUpdateHandler = (e) => {
     this.forceUpdate();
   };
 
   return (
-    <nav className="nav">
+    <nav className="nav" key={Math.random()}>
       <ul className="nav-list">
         <li className="nav-list_item">
           <NavLink
             className={"nav-list_item_link"}
             to={"/about"}
-            onClick={forceUpdateHandler}
+            onClick={ForceUpdateHandler}
           >
             About
           </NavLink>
@@ -23,7 +24,7 @@ const Nav = () => {
           <NavLink
             className={"nav-list_item_link"}
             to={"/work"}
-            onClick={forceUpdateHandler}
+            onClick={ForceUpdateHandler}
           >
             Work
           </NavLink>
@@ -32,7 +33,7 @@ const Nav = () => {
           <NavLink
             className={"nav-list_item_link"}
             to={"/skills"}
-            onClick={forceUpdateHandler}
+            onClick={ForceUpdateHandler}
           >
             Skills
           </NavLink>
@@ -41,7 +42,7 @@ const Nav = () => {
           <NavLink
             className={"nav-list_item_link"}
             to={"/contact"}
-            onClick={forceUpdateHandler}
+            onClick={ForceUpdateHandler}
           >
             Contact
           </NavLink>
@@ -49,6 +50,6 @@ const Nav = () => {
       </ul>
     </nav>
   );
-};
+});
 
 export default Nav;

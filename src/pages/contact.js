@@ -6,36 +6,36 @@ const Contact = () => {
   return (
     <React.Fragment>
       <h2 className="contact-header">Want to contact me?</h2>
-      <section class="contacts">
-        <div class="container">
+      <section className="contacts">
+        <div className="container">
           <form action="https://formspree.io/f/mqkogwlo" method="POST">
-            <div class="form-grid">
-              <div class="form-group">
-                <label for="Name">Name</label>
+            <div className="form-grid">
+              <div className="form-group">
+                <label htmlFor="Name">Name</label>
                 <input
                   type="text"
-                  class="form-control"
+                  className="form-control"
                   id="name"
                   name="name"
                   required
                 />
               </div>
-              <div class="form-group">
-                <label for="Email">Email address</label>
+              <div className="form-group">
+                <label htmlFor="Email">Email address</label>
                 <input
                   type="email"
-                  class="form-control"
+                  className="form-control"
                   id="email"
                   name="email"
                   required
                 />
               </div>
             </div>
-            <div class="form-group">
-              <label for="Message">Message</label>
+            <div className="form-group">
+              <label htmlFor="Message">Message</label>
               <input
                 type="message"
-                class="form-control"
+                className="form-control"
                 id="message"
                 name="message"
                 required
