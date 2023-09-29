@@ -13,10 +13,10 @@ const About = () => {
     <React.Fragment>
       <h2>Hi, I’m Ulijah Charles</h2>
       <p>
-        A passionate and driven Frontend Engineer that is Rochester Institute of
-        Technology (RIT) graduate. During my time at RIT, I honed my skills in
-        creating intuitive and visually appealing user interfaces while gaining
-        a strong foundation in frontend technologies. I have a deep
+        A passionate and driven Frontend Engineer that a is Rochester Institute
+        of Technology (RIT) graduate. During my time at RIT, I honed my skills
+        in creating intuitive and visually appealing user interfaces while
+        gaining a strong foundation in frontend technologies. I have a deep
         understanding of HTML, CSS, React JavaScript and more. One of the most
         valuable aspects of my education at RIT and my freelance work was the
         emphasis on practical, hands-on{" "}
