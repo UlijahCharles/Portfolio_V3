@@ -1,10 +1,16 @@
+.nav-list {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
 nav a.active {
   color: #bb000e;
 }
 
 .nav-list_item_link {
   font-family: "Roboto Mono", monospace;
-  font-size: 1.5rem;
+  font-size: calc(1.1rem + 0.2vw);
   margin: 1rem 0;
   display: inline-block;
   transition: all 0.3s ease-out;
@@ -15,26 +21,36 @@ nav a.active {
   color: #bb000e;
 }
 
-.nav-list_item_link:hover {
+.nav-list_item_link:hover:not(.active) {
   color: #bb000e;
-  transform: translateX(1.5rem);
+  transform: translateY(-0.5rem);
 }
 
-.nav-list_item_link:hover::before {
-  position: absolute;
-  content: "";
-  width: 1rem;
-  height: 1rem;
-  background: url("../assets/less-than-icon.png") 0 0 no-repeat;
-  left: -0.8rem;
-  bottom: 0;
-}
+@media (min-width: 768px) {
+  .nav-list {
+    display: block;
+  }
 
-.nav-list_item_link:hover::after {
-  position: absolute;
-  content: "";
-  width: 1rem;
-  height: 1rem;
-  background: url("../assets/greater-than-icon.png") 0 0 no-repeat;
-  bottom: 0.1rem;
+  .nav-list_item_link:hover:not(.active) {
+    transform: translateX(1.5rem);
+  }
+
+  .nav-list_item_link:hover:not(.active)::before {
+    position: absolute;
+    content: "";
+    width: 1rem;
+    height: 1rem;
+    background: url("../assets/less-than-icon.png") 0 0 no-repeat;
+    left: -0.8rem;
+    bottom: 0;
+  }
+
+  .nav-list_item_link:hover:not(.active)::after {
+    position: absolute;
+    content: "";
+    width: 1rem;
+    height: 1rem;
+    background: url("../assets/greater-than-icon.png") 0 0 no-repeat;
+    bottom: 0.1rem;
+  }
 }

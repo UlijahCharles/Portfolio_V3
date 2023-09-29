@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import "../js/slide";
+import Button from "./button";
 import "../css/carousel.css";
 
 const Carousel = () => {
@@ -69,15 +69,26 @@ const Carousel = () => {
         <div class="carousel-item__image"></div>
         <div class="carousel-item__info">
           <div class="carousel-item__container">
-            <h2 class="carousel-item__subtitle">The grand moment </h2>
-            <h1 class="carousel-item__title">Le tour</h1>
+            <h2>Portfolio</h2>
+
+            <h2 class="carousel-item__subtitle">Face Solution</h2>
+            <h1 class="carousel-item__title">Origami</h1>
             <p class="carousel-item__description">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam.
+              A collection of skin care products formulated with cutting-edge
+              technology to help you achieve the results you desire for your
+              face.
             </p>
-            <a href="#" class="carousel-item__btn">
-              Explore the tour
-            </a>
+
+            <Button
+              title="Discover"
+              class="carousel-item__btn"
+              url="https://origami-site.vercel.app"
+            />
+            <Button
+              title="View Code"
+              class="carousel-item__btn"
+              url="https://github.com/UlijahCharles/origami"
+            />
           </div>
         </div>
       </div>
@@ -85,65 +96,22 @@ const Carousel = () => {
         <div class="carousel-item__image"></div>
         <div class="carousel-item__info">
           <div class="carousel-item__container">
-            <h2 class="carousel-item__subtitle">The big window </h2>
-            <h1 class="carousel-item__title">Minimal window</h1>
+            <h2 class="carousel-item__subtitle">Minimal Apple </h2>
+            <h1 class="carousel-item__title">AirPods Max</h1>
             <p class="carousel-item__description">
-              Clear Glass Window With Brown and White Wooden Frame iste natus
-              error sit voluptatem accusantium doloremque laudantium.
+              Redesign of the Apple web page for AirPods Max, maintaining the
+              brand's minimalistic style but with a new vision.
             </p>
-            <a href="#" class="carousel-item__btn">
-              Read the article
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="carousel-item carousel-item--3">
-        <div class="carousel-item__image"></div>
-        <div class="carousel-item__info">
-          <div class="carousel-item__container">
-            <h2 class="carousel-item__subtitle">Tropical palms </h2>
-            <h1 class="carousel-item__title">Palms</h1>
-            <p class="carousel-item__description">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam.
-            </p>
-            <a href="#" class="carousel-item__btn">
-              Explore the palms
-            </a>
-          </div>
-        </div>
-      </div>
-
-      <div class="carousel-item carousel-item--4">
-        <div class="carousel-item__image"></div>
-        <div class="carousel-item__info">
-          <div class="carousel-item__container">
-            <h2 class="carousel-item__subtitle">Beach </h2>
-            <h1 class="carousel-item__title">The beach </h1>
-            <p class="carousel-item__description">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam.
-            </p>
-            <a href="#" class="carousel-item__btn">
-              Explore the beach
-            </a>
-          </div>
-        </div>
-      </div>
-
-      <div class="carousel-item carousel-item--5">
-        <div class="carousel-item__image"></div>
-        <div class="carousel-item__info">
-          <div class="carousel-item__container">
-            <h2 class="carousel-item__subtitle">The white building </h2>
-            <h1 class="carousel-item__title">White building</h1>
-            <p class="carousel-item__description">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam.
-            </p>
-            <a href="#" class="carousel-item__btn">
-              Read the article
-            </a>
+            <Button
+              title="Discover"
+              class="carousel-item__btn"
+              url="https://apple-airpod-max.vercel.app"
+            />
+            <Button
+              title="View Code"
+              class="carousel-item__btn"
+              url="https://github.com/UlijahCharles/Apple-Airpod-Max"
+            />
           </div>
         </div>
       </div>

@@ -70,12 +70,12 @@ main {
   display: grid;
   grid-template-rows: 1fr;
   grid-column-gap: 2rem;
-  min-height: calc(100vh - 98px);
+  min-height: calc(100vh);
 }
 
 .layout_row {
   display: grid;
-  grid-template-columns: 1fr 3fr;
+  grid-template-columns: 1fr;
   grid-column-gap: 2rem;
 }
 
@@ -85,23 +85,19 @@ main {
   justify-content: center;
 }
 
-.layout_col-nav {
-  padding: 2.2rem 0;
-}
-
 h2 {
   font-family: "Roboto Mono", monospace;
   color: white;
   margin-bottom: 1.7rem;
   font-weight: 700;
-  font-size: 2.3rem;
+  font-size: calc(1rem + 1vw);
 }
 
 p {
   color: white;
   font-family: "Montserrat", sans-serif;
+  font-size: calc(0.8rem + 0.1vw);
   line-height: 1.7;
-  max-width: 65%;
 }
 
 a {
@@ -115,6 +111,11 @@ a {
 .experience:hover {
   color: #b34b52;
   cursor: pointer;
+}
+
+.cv {
+  max-width: 25%;
+  margin: 0 auto;
 }
 
 #modal {
@@ -151,6 +152,18 @@ a {
     max-width: 768px;
     padding-right: 2rem;
     padding-left: 2rem;
+  }
+
+  .layout {
+    min-height: calc(100vh - 98px);
+  }
+
+  .layout_row {
+    grid-template-columns: 1fr 3fr;
+  }
+
+  .layout_col-nav {
+    padding: 2.2rem 0;
   }
 }
 

@@ -32,7 +32,7 @@ const About = () => {
         and find satisfaction in turning concepts into engaging digital
         experiences.
       </p>
-      <Button title="DOWNLOAD CV" downloadable="true" />
+      <Button title="DOWNLOAD CV" class="cv" downloadable="true" />
       {isExperienceOpen && <ExperienceModal onClose={closeExperience} />}
     </React.Fragment>
   );

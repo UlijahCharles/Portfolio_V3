@@ -2,12 +2,11 @@ button {
   background: none;
   border: 2px solid;
   font: inherit;
+  font-size: calc(0.8rem + 0.1vw);
   line-height: 1;
-  margin: 0.5em;
-  padding: 1em 2em;
+  padding: 1em;
   color: var(--main-color);
   transition: 0.25s;
-  max-width: 25%;
 }
 
 button:hover,
