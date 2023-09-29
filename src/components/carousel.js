@@ -69,8 +69,6 @@ const Carousel = () => {
         <div class="carousel-item__image"></div>
         <div class="carousel-item__info">
           <div class="carousel-item__container">
-            <h2>Portfolio</h2>
-
             <h2 class="carousel-item__subtitle">Face Solution</h2>
             <h1 class="carousel-item__title">Origami</h1>
             <p class="carousel-item__description">
@@ -94,10 +92,11 @@ const Carousel = () => {
       </div>
       <div class="carousel-item carousel-item--2">
         <div class="carousel-item__image"></div>
+
         <div class="carousel-item__info">
           <div class="carousel-item__container">
-            <h2 class="carousel-item__subtitle">Minimal Apple </h2>
-            <h1 class="carousel-item__title">AirPods Max</h1>
+            <h4 class="carousel-item__subtitle">Minimal Apple </h4>
+            <h3 class="carousel-item__title">AirPods Max</h3>
             <p class="carousel-item__description">
               Redesign of the Apple web page for AirPods Max, maintaining the
               brand's minimalistic style but with a new vision.

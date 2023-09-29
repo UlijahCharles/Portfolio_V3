@@ -70,16 +70,22 @@ main {
   display: grid;
   grid-template-rows: 1fr;
   grid-column-gap: 2rem;
-  min-height: calc(100vh);
+  min-height: calc(50vh);
 }
 
-.layout_row {
+.layout-row {
   display: grid;
   grid-template-columns: 1fr;
   grid-column-gap: 2rem;
 }
 
-.layout_col {
+.layout-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.layout-col_main {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -88,7 +94,7 @@ main {
 h2 {
   font-family: "Roboto Mono", monospace;
   color: white;
-  margin-bottom: 1.7rem;
+  /* margin-bottom: 1.7rem; */
   font-weight: 700;
   font-size: calc(1rem + 1vw);
 }

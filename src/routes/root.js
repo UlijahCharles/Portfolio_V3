@@ -10,11 +10,11 @@ function Root() {
         <Header />
         <main>
           <div className="layout">
-            <div className="layout_row">
-              <div className="layout_col layout_col-nav">
+            <div className="layout-row">
+              <div className="layout-col layout-col_nav">
                 <Nav />
               </div>
-              <div className="layout_col layout_col-main fadeInUp-animation">
+              <div className="layout-col layout-col_main fadeInUp-animation">
                 <Outlet end />
               </div>
             </div>
