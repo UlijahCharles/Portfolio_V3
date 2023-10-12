@@ -91,6 +91,11 @@ main {
   justify-content: center;
 }
 
+.layout-col_nav {
+  align-items: center;
+  justify-content: center;
+}
+
 h2 {
   font-family: "Roboto Mono", monospace;
   color: white;
@@ -164,11 +169,11 @@ a {
     min-height: calc(100vh - 98px);
   }
 
-  .layout_row {
+  .layout-row {
     grid-template-columns: 1fr 3fr;
   }
 
-  .layout_col-nav {
+  .layout-col_nav {
     padding: 2.2rem 0;
   }
 }
