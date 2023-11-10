@@ -133,7 +133,7 @@ const Carousel = () => {
             <Button
               title="View Code"
               class="carousel-item__btn"
-              url="https://parasite-film-concept.vercel.app/"
+              url="https://github.com/UlijahCharles/Parasite-Concept"
             />
           </div>
         </div>
