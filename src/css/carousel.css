@@ -111,6 +111,11 @@
   background-size: contain;
 }
 
+.carousel-item--3 .carousel-item__image {
+  background-image: url("../assets/apple_thumbnail.png?");
+  background-size: contain;
+}
+
 .carousel-item__btn {
   width: 90%;
   font-family: "Montserrat", sans-serif;

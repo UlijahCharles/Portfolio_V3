@@ -114,6 +114,30 @@ const Carousel = () => {
           </div>
         </div>
       </div>
+      <div class="carousel-item carousel-item--3">
+        <div class="carousel-item__image"></div>
+
+        <div class="carousel-item__info">
+          <div class="carousel-item__container">
+            <h4 class="carousel-item__subtitle">Film Concept</h4>
+            <h3 class="carousel-item__title">Parsite</h3>
+            <p class="carousel-item__description">
+              A site created to convey the essence and the atmosphere of the
+              film Parasite.
+            </p>
+            <Button
+              title="Discover"
+              class="carousel-item__btn"
+              url="https://parasite-film-concept.vercel.app/"
+            />
+            <Button
+              title="View Code"
+              class="carousel-item__btn"
+              url="https://parasite-film-concept.vercel.app/"
+            />
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
