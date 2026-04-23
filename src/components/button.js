@@ -8,7 +8,7 @@ const Button = (props) => {
       {props.downloadable ? (
         <a href={resume} download>
           {props.title}
-          <sup> (pdf 98kb)</sup>
+          <sup> (pdf 501kb)</sup>
         </a>
       ) : (
         <a href={props.url}>{props.title}</a>

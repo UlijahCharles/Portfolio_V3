@@ -13,12 +13,12 @@ const Skills = () => {
       <ul className={style["skills-list"]}>
         <li className={style["skills-list__item"]}>HTML</li>
         <li className={style["skills-list__item"]}>CSS</li>
+        <li className={style["skills-list__item"]}>SASS</li>
+        <li className={style["skills-list__item"]}>Bootstrap</li>
         <li className={style["skills-list__item"]}>Javascript</li>
+        <li className={style["skills-list__item"]}>Typescript</li>
         <li className={style["skills-list__item"]}>React</li>
         <li className={style["skills-list__item"]}>Redux</li>
-        <li className={style["skills-list__item"]}>Typescript</li>
-        <li className={style["skills-list__item"]}>Bootstrap</li>
-        <li className={style["skills-list__item"]}>SASS</li>
         <li className={style["skills-list__item"]}>Node.js</li>
         <li className={style["skills-list__item"]}>Next.js</li>
         <li className={style["skills-list__item"]}>Adobe Photoshop</li>
